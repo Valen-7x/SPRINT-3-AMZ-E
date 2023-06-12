@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+#container-1{
+    row-gap: 2rem;
+    font-family: 'Arvo', serif;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+header{
+    min-height: 20vh !important;
+    width: 100%;
+}
+main{
+    min-height: 80vh;    
+}
+footer{
+    min-height:11vh ;
+    width: 100%;
+}
+
+#nav-bar{
+    margin-top:0.7rem;
+}
+#items-bar1:hover{
+    backdrop-filter: blur(5px);
+    background-color: #9b33a7;
+    box-shadow: 0 0 2rem #00ffa2e5;
+    border-radius: 15%;
+}
+#items-bar2:hover{
+    backdrop-filter: blur(5px);
+    background-color: #9b33a7;
+    box-shadow: 0 0 2rem #00ffa2e5;
+    border-radius: 15%;
+}
+
+#items-bar3:hover{
+    backdrop-filter: blur(5px);
+    background-color: #9b33a7;
+    box-shadow: 0 0 2rem #00ffa2e5;
+    border-radius: 15%;
+            }
+
+#items-bar4:hover{
+ backdrop-filter: blur(20%);
+ background-color: #9b33a7;
+ box-shadow: 0 0 2rem #00ffa2e5;
+ border-radius: 15%;
+                }
+
+#items-bar5:hover{
+    backdrop-filter: blur(5rem);
+    background-color: #9b33a7;
+    box-shadow: 0 0 2rem #00ffa2e5;
+    border-radius: 15%;
+}             
+#ul-nav{
+    display: flex;
+    gap: 1rem;
+    margin-right: 3rem !important;
+}
+.logo{
+    width: 11rem;
+    height: 4.5rem;
+    object-fit: contain;
+    margin-left: 1rem;
+    margin-top:0.2rem;
+}
+.vector-luz{
+    width: 10rem;
+    height: 5rem;
+}
+#container-2{
+    width: 100%;
+    margin-top: 2rem;
+}
+#box-cards{
+    width: 100%;
+    margin-top: 2rem;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+.card-img-top{
+ height: 12rem;
+ object-fit: cover;
+}
+
+.cards-css1{
+    background-color: #bbbbbb !important;
+    
+}
+.cards-css1:hover{
+    box-shadow: 0 0 4rem #383838e5 !important;
+    background: rgba(173, 173, 173, 0.979)
+}
+
+.png1{
+    width: 3rem;
+    height: 3rem;
+}
+.png2{
+    width:2.4rem;
+    height: 2.4rem;
+}
+#container-png{
+    width: 12rem;
+    margin-left: 3rem;
+}
+h3{
+    color: white !important;
+    font-size: 0.8rem !important;
+    margin-right: 3rem;
+    margin-left: 1rem;
+}
+#form-contact{
+    display: flex;
+    flex-direction: column ;
+    margin-top: 4rem;
+    align-items: center;
+    height: 20rem;
+}
+#text-mssg{
+    height: 12rem;
+    width: 20rem;
+    border: solid rgb(168, 167, 167) 3px;
+}
+#text-email,#text-name{
+    height: 2rem;
+    width: 20rem;
+    border: solid rgb(168, 167, 167) 3px;
+}
+#nav-lupa{
+    margin-top: 0.8rem;
+}
+
+#checkbox{
+    margin-left: 0.5rem;
+    margin-top: 1.5rem;
+}
+/*musseum*/
+.img-details-museum{
+    height: 15rem !important;    
+}
+table{
+    border-collapse: collapse;
+    border: solid black 1px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 12px;
+}
+tr,td{
+    border: solid 1px black !important;
+}
+th{
+    font-size: 1rem;
+}
+
+/*-details*/
+#card-details{
+    box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(166, 99, 168) 0px 0px 0px 6px, rgb(140, 98, 148) 0px 0px 0px 9px, rgb(150, 84, 160) 0px 0px 0px 12px, rgb(28, 17, 31) 0px 0px 0px 15px;
+    width:50vw;
+    min-height: 40vh;
+    border: solid 3px !important ;
+    border-radius: 1.3rem;
+    gap: 1rem;
+    background-color: #36364d;
+}
+#details{
+   margin: 0.5rem;
+   width: 25vw;
+   height: 40vh;
+   border-radius: 1rem;
+}
+.decription-details{
+margin: 0.5rem;
+color: white;
+}
+/* imagenes carrusel */
+#carrousel-img1{
+    min-height: 30vh;
+    background-image:url('https://i.postimg.cc/KvsSK8cj/Electronic-Fest.jpg');
+    background-position: bottom ;    
+}
+#carrousel-img2{
+    min-height: 30vh;
+    background-image:url('https://i.postimg.cc/GmHRkbNV/Jurassic-Park.jpg');
+    background-size: cover;
+    background-position: center ;    
+}
+#carrousel-img3{
+    min-height: 30vh;
+    background-image:url('https://i.postimg.cc/RZ9fH4Pr/halloween.jpg');
+    background-size: cover;
+    background-position:center 20% ;    
+}
+#carrousel-img4{
+    min-height: 30vh;
+    background-image:url('../imgs/Books.jpg');
+    background-size: cover;
+    background-position: center ;    
+}
+#checkBoxDiv{
+    margin-top: 1rem;
+}
+#search-input{
+    width: 30vw;
+}
+#checkBoxDiv{
+    margin-left: 1rem;
+}
+
+@media only screen and (min-width: 250px) and (max-width:1150px){
+    #card-details{
+        margin-top: 2rem;
+        margin-bottom:2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #details{
+        object-fit: cover;
+
+    }
+}
+@media only screen and (min-width:300px) and (max-width:768px){
+    #check-lupa{
+        display: flex;
+        flex-direction: column !important;
+        align-items: center;
+    }
+#principal-header{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ align-content: center;
+    }
+.logo{
+    width: 17rem;
+    margin-top: 1rem;
+}
+#checkBoxDiv{
+    display: flex;
+    flex-direction: column !important ;
+    align-content: center !important;
+    gap: 1 !important;
+}
+}
